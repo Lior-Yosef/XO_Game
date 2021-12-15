@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App{
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  }
+  
+  .box{
+    width: 33%;
+    height: 33.333333333%;
+    /* margin: 20px; */
+    padding: 20px;
+    /* border: 5px red solid; */
+    transition: 0.5s;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    
+  }
+  
+  .box:first-child{
+    border-right: 5px blue solid;
+    border-bottom: 5px blue solid;
+  }
+  
+  .box:nth-child(2){
+    border-right: 5px blue solid;
+    border-left: 5px blue solid;
+    border-bottom: 5px blue solid;
+  }
+  
+  .box:nth-child(3){
+    border-left: 5px blue solid;
+    border-bottom: 5px blue solid;
+  }
+  .box:nth-child(4){
+    border-top: 5px blue solid;
+    border-right: 5px blue solid;
+    border-bottom: 5px blue solid;
+  
+  }
+  .box:nth-child(5){
+    border: 5px blue solid;
+  
+  }
+  .box:nth-child(6){
+    border-top: 5px blue solid;
+    border-left: 5px blue solid;
+    border-bottom: 5px blue solid;
+  }
+  .box:nth-child(7){
+    border-right: 5px blue solid;
+    border-top: 5px blue solid;
+  }
+  .box:nth-child(8){
+    border-right: 5px blue solid;
+    border-left: 5px blue solid;
+    border-top: 5px blue solid;
+  }
+  .box:nth-child(9){
+    border-left: 5px blue solid;
+    border-top: 5px blue solid;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .box:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+    font-size: 80px;
+  
+  }
+  
